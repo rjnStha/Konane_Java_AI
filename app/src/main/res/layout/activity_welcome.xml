@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.ramapo.rshresth.konane.WelcomeActivity"
+    android:background="@drawable/konane_2">
+
+    <LinearLayout
+        android:id="@+id/konane_image"
+        android:layout_width="0dp"
+        android:layout_height="639dp"
+        android:background="@drawable/konane_1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/resumeGame"
+        android:layout_width="374dp"
+        android:layout_height="117dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/text"
+        android:onClick="PlayButton"
+        android:text="Resume Game"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playButton" />
+
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="374dp"
+        android:layout_height="117dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/text"
+        android:onClick="PlayButton"
+        android:text="Tutorial"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumeGame" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="374dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="168dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="150dp"
+        android:background="@drawable/text"
+        android:onClick="PlayButton"
+        android:text="New Game"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/konane_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewKonane"
+        android:layout_width="359dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="150dp"
+        android:text="@string/konane"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/playButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

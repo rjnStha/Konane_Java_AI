@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Konane</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="konane">Kōnane</string>
+    <string name="konane_info">Kōnane - a strategy board game from Hawaii</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="status">Status</string>
+    <string name="algorithmn_prompt">Algorithmn</string>
+    <string name="ok">OK</string>
+    <string name="note_entire_tree">Select 11 for entire tree search</string>
+    <string name="_6">6</string>
+    <string name="next">Next</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+    <string name="cancel">cancel</string>
+    <string-array name="algorithmn_list">
+        <item>depthFirst</item>
+        <item>breadthFirst</item>
+        <item>bestFirst</item>
+        <item>branchBound</item>
+        <item>minMax</item>>
+    </string-array>
+
+</resources>
